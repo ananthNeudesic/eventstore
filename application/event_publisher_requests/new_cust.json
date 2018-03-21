@@ -1,0 +1,9 @@
+{
+	"name": "John Doe",
+	"address": {
+		"line" : "1 MAIN ST",
+		"city" : "IRVINE",
+		"state" : "CA",
+		"zip" : "92618"
+	}
+}
