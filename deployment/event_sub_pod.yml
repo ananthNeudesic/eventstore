@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-event-subscriber
+  labels:
+    app: event-subscriber
+spec:
+  containers :
+    - image: ananthrag/my-event-subscriber
+      name: my-event-subscriber
+      env:
+        - name: "EVENTSTOREPORT"
+          value: "32113"
+        - name: "CLUSTERIP"
+          value: "192.168.99.100"
+      ports:
+        - containerPort: 5000

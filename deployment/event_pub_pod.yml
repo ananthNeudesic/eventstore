@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-event-publisher
+  labels:
+    app: event-publisher
+spec:
+  containers :
+    - image: ananthrag/my-event-publisher
+      name: my-event-publisher
+      env:
+        - name: "EVENTSTOREPORT"
+          value: "32113"
+        - name: "CLUSTERIP"
+          value: "192.168.99.100"
+      ports:
+        - containerPort: 5000

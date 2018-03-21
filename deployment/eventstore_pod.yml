@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myeventstore
+  labels:
+    app: eventstore
+spec:
+  containers :
+    - image: eventstore/eventstore
+      name: myeventstore
+      ports:
+        - containerPort: 1113
+        - containerPort: 2113
