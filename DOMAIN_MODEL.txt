@@ -1,0 +1,30 @@
+Entities
+
+	Customer
+
+		(ID)
+		Name
+		Address
+			Line
+			City
+			State
+			Zip
+
+
+Actions
+
+	CreateCustomer
+
+	UpdateCustomer
+
+
+Events
+
+	CustomerCreated
+
+	CustomerUpdated
+
+Stream
+
+	EventData
+

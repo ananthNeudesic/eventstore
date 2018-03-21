@@ -1,0 +1,15 @@
+[
+  {
+    "eventId": "f68a3232-94d6-4eb8-8a70-4399994f2170",
+    "eventType": "CustomerUpdated",
+    "data": { 
+      "id": "1001", 
+      "address" : {
+        "line1" : "2222 South Street",
+        "city" : "Irvine",
+        "state" : "CA",
+        "zip" : "92618"
+      }
+    }
+  }
+]

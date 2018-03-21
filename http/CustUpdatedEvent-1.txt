@@ -1,0 +1,11 @@
+[
+  {
+    "eventId": "360443cd-4808-468a-9ecf-b16edcb4a4a4",
+    "eventType": "CustomerUpdated",
+    "data": { 
+      "id": "1001", 
+      "name": "Customer Name1", 
+      "phone": "2223334444"
+    }
+  }
+]

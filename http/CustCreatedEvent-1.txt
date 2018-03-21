@@ -1,0 +1,17 @@
+[
+  {
+    'eventId': '2a06ce72-c9f4-4a9c-a86b-91373765d213',
+    'eventType': 'CustomerCreated',
+    'data': { 
+      'id': '1001', 
+      'name': 'Name of Customer', 
+      'phone': '2223334444',
+      'address' : {
+        'line1' : '1 N Main Street',
+        'city' : 'Santa Ana',
+        'state' : 'CA',
+        'zip' : '91355'
+      }
+    }
+  }
+]
